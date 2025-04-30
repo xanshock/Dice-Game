@@ -14,8 +14,8 @@ img2.setAttribute("src", randomImage1);
 
 if (randomNum > randomNum1) {
     document.querySelector("h1").innerHTML = "Player 1 wins!";
-} else if (randomNum < randomNum1) {
-    document.querySelector("h1").innerHTML = "Player 2 wins!";
-} else {
+} else if (randomNum === randomNum1) {
     document.querySelector("h1").innerHTML = "It's a Draw!";
+} else {
+    document.querySelector("h1").innerHTML = "Player 2 wins!";
 }
