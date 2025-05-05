@@ -19,3 +19,4 @@ if (randomNum > randomNum1) {
 } else {
     document.querySelector("h1").innerHTML = "Player 2 wins!";
 }
+// final update
